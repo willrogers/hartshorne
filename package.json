@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "hartshorne",
+  "description": "A webpage for Upper Hall, Hartshorne.",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
