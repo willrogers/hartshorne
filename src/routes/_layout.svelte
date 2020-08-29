@@ -9,7 +9,7 @@
 		position: relative;
 		background-color: white;
 		padding: 2em;
-		margin: 0 auto;
+		margin: 15px auto;
 		box-sizing: border-box;
 	}
 </style>

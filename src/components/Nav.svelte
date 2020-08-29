@@ -4,9 +4,10 @@
 
 <style>
 	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
+		width: calc(100% - 2em);
+		margin: 1em;
+		box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 		font-weight: 300;
-		padding: 0 1em;
 		display: flex;
 		justify-content: center;
 	}
@@ -26,22 +27,19 @@
 	li {
 		display: block;
 		float: left;
+		transition: all 0.3s linear;
+	}
+	li:hover {
+		background-color:lightgrey;
 	}
 
 	[aria-current] {
 		position: relative;
 		display: inline-block;
+		background-color:rgb(233, 233, 233);
+		transition: all 0.3s linear;
 	}
 
-	[aria-current]::after {
-		position: absolute;
-		content: '';
-		width: calc(100% - 1em);
-		height: 2px;
-		background-color: rgb(255,62,0);
-		display: block;
-		bottom: -1px;
-	}
 
 	a {
 		text-decoration: none;

@@ -9,7 +9,7 @@
 
 const posts = [
 	{
-		title: 'Making a website',
+		title: 'Making a website for Upper Hall',
 		slug: 'making-a-website',
 		html: `
 			<p>We thought that it would be nice to have a website.</p>
