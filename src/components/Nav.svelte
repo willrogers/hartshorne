@@ -4,8 +4,8 @@
 
 <style>
 	nav {
-		width: calc(100% - 2em);
-		margin: 1em;
+		width: min(85%, calc(100% - 2em));
+		margin: 1em auto;
 		box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
 		font-weight: 300;
 		display: flex;
