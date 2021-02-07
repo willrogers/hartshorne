@@ -53,8 +53,8 @@
 		<li><a aria-current="{segment === undefined ? 'page' : undefined}" href=".">Home</a></li>
 		<li><a aria-current="{segment === 'thehouse' ? 'page' : undefined}" href="thehouse">The House</a></li>
 		<li><a aria-current="{segment === 'history' ? 'page' : undefined}" href="history">History</a></li>
-		<li><a aria-current="{segment === 'gallery' ? 'page' : undefined}" href="gallery">History</a></li>
-		<li><a aria-current="{segment === 'events' ? 'page' : undefined}" href="events">History</a></li>
+		<li><a aria-current="{segment === 'gallery' ? 'page' : undefined}" href="gallery">Gallery</a></li>
+		<li><a aria-current="{segment === 'events' ? 'page' : undefined}" href="events">Events</a></li>
 		<li><a aria-current="{segment === 'contact' ? 'page' : undefined}" href="contact">Contact</a></li>
 	</ul>
 </nav>
