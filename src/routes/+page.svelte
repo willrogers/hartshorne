@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>Upper Hall Hartshorne</title>
 </svelte:head>
@@ -5,12 +9,12 @@
 <h1>Upper Hall, Hartshorne</h1>
 
 <figure>
-	<img alt="Upper Hall, Hartshorne" src="snow1.jpg" />
+	<img alt="Upper Hall, Hartshorne" src="{base}/snow1.jpg" />
 	<figcaption>The house in winter 2020</figcaption>
 </figure>
 
 <p>
-	Hartshorne Upper Hall is a Grade ll* timber-framed house built in the 1620s for John Benskin, a
+	Hartshorne Upper Hall is a Grade II* timber-framed house built in the 1620s for John Benskin, a
 	wealthy yeoman who was tenant of the Hartshorne upper manor. Originally a large high-status house,
 	by the early 20th century it was divided into three cottages owned by George Wilkinson, an
 	“odd-stuff maker” in the local pipeyards, who purchased it from Lord Carnarvon’s Bretby estate for

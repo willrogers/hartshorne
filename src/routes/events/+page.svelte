@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <svelte:head>
 	<title>Events</title>
 </svelte:head>
@@ -10,15 +14,15 @@
 </p>
 <p>
 	We are also happy to show round private groups by prior arrangement. There is no charge but we ask
-	for a donation to a Trussell Trust food bank. Please <a href="/contact"
+	for a donation to a Trussell Trust food bank. Please <a href="{base}/contact"
 		>contact Catherine Rogers</a
 	>.
 </p>
 
 <div id="images">
-	<img alt="Woman tending a fire" src="woman-with-fire.jpg" />
-	<img alt="Women spinning" src="two-women.jpg" />
-	<img alt="Man wearing a smock and hat" src="man-with-hat.jpg" />
+	<img alt="Woman tending a fire" src="{base}/woman-with-fire.jpg" />
+	<img alt="Women spinning" src="{base}/two-women.jpg" />
+	<img alt="Man wearing a smock and hat" src="{base}/man-with-hat.jpg" />
 </div>
 
 <style>

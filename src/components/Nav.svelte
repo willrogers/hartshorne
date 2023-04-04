@@ -1,33 +1,37 @@
 <script>
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 </script>
 
 <nav>
 	<ul>
 		<li>
-			<a aria-current={$page.url.pathname === undefined ? 'page' : undefined} href=".">Home</a>
-		</li>
-		<li>
-			<a aria-current={$page.url.pathname === 'thehouse' ? 'page' : undefined} href="thehouse"
-				>The House</a
+			<a aria-current={$page.url.pathname === undefined ? 'page' : undefined} href="{base}/">Home</a
 			>
 		</li>
 		<li>
-			<a aria-current={$page.url.pathname === 'history' ? 'page' : undefined} href="history"
+			<a
+				aria-current={$page.url.pathname === 'thehouse' ? 'page' : undefined}
+				href="{base}/thehouse">The House</a
+			>
+		</li>
+		<li>
+			<a aria-current={$page.url.pathname === 'history' ? 'page' : undefined} href="{base}/history/"
 				>History</a
 			>
 		</li>
 		<li>
-			<a aria-current={$page.url.pathname === 'gallery' ? 'page' : undefined} href="gallery"
+			<a aria-current={$page.url.pathname === 'gallery' ? 'page' : undefined} href="{base}/gallery/"
 				>Gallery</a
 			>
 		</li>
 		<li>
-			<a aria-current={$page.url.pathname === 'events' ? 'page' : undefined} href="events">Events</a
+			<a aria-current={$page.url.pathname === 'events' ? 'page' : undefined} href="{base}/events/"
+				>Events</a
 			>
 		</li>
 		<li>
-			<a aria-current={$page.url.pathname === 'contact' ? 'page' : undefined} href="contact"
+			<a aria-current={$page.url.pathname === 'contact' ? 'page' : undefined} href="{base}/contact/"
 				>Contact</a
 			>
 		</li>
