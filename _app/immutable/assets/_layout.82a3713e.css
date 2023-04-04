@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	font-family: 'Gill Sans Light', -apple-system, Helvetica Neue, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: #333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 0.5em 0;
+	font-weight: 400;
+	line-height: 1.2;
+	color: red;
+}
+
+h1 {
+	font-size: 2em;
+	text-align: center;
+	margin: 0 auto;
+}
+
+main {
+	width: clamp(300px, 70%, 800px);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+p {
+	text-align: center;
+}
+
+a {
+	color: inherit;
+}
+
+figcaption {
+	font-size: 12px;
+}
+
+code {
+	font-family: menlo, inconsolata, monospace;
+	font-size: calc(1em - 2px);
+	color: #555;
+	background-color: #f0f0f0;
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+}
+
+@media (min-width: 400px) {
+	body {
+		font-size: 16px;
+	}
+}
+nav.svelte-18v9twb{width:min(85%, calc(100% - 2em));margin:1em auto;box-shadow:0px 5px 10px rgba(0, 0, 0, 0.2);font-weight:300;display:flex;justify-content:center}ul.svelte-18v9twb{margin:0;padding:0}ul.svelte-18v9twb::after{content:'';display:block;clear:both}li.svelte-18v9twb{display:block;float:left;transition:all 0.3s linear}li.svelte-18v9twb:hover{background-color:lightgrey}[aria-current].svelte-18v9twb{position:relative;display:inline-block;background-color:rgb(233, 233, 233);transition:all 0.3s linear}a.svelte-18v9twb{text-decoration:none;padding:1em 0.5em;display:block}main.svelte-cmobi1{position:relative;background-color:white;padding:2em;margin:15px auto;box-sizing:border-box}
