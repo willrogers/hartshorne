@@ -10,12 +10,6 @@
 			>
 		</li>
 		<li>
-			<a
-				aria-current={$page.url.pathname === 'thehouse' ? 'page' : undefined}
-				href="{base}/thehouse">The House</a
-			>
-		</li>
-		<li>
 			<a aria-current={$page.url.pathname === 'history' ? 'page' : undefined} href="{base}/history/"
 				>History</a
 			>
