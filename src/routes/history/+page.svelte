@@ -66,7 +66,7 @@
 <p>
 	Today, however, the original character of the house is best appreciated from the back, as the
 	front has undergone rebuildings in brick and a brick extension has been added. Old yew trees
-	further (conceal the facade, while lending an appropriate air of antiquity to the house.
+	further conceal the facade, while lending an appropriate air of antiquity to the house.
 </p>
 
 <p>

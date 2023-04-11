@@ -24,9 +24,9 @@
 </p>
 
 <div id="images">
-	<img alt="Woman tending a fire" src="{base}/woman-with-fire.jpg" />
-	<img alt="Women spinning" src="{base}/two-women.jpg" />
-	<img alt="Man wearing a smock and hat" src="{base}/man-with-hat.jpg" />
+	<img alt="Woman tending a fire" src="{base}/small/woman-with-fire.jpg" />
+	<img alt="Women spinning" src="{base}/small/two-women.jpg" />
+	<img alt="Man wearing a smock and hat" src="{base}/small/man-with-hat.jpg" />
 </div>
 
 <style>

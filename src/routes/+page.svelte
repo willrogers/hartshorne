@@ -9,7 +9,7 @@
 <h1>Upper Hall, Hartshorne</h1>
 
 <figure>
-	<img alt="Upper Hall, Hartshorne" src="{base}/snow1.jpg" />
+	<img alt="Upper Hall, Hartshorne" src="{base}/small/snow.jpg" />
 	<figcaption>The house in winter 2020</figcaption>
 </figure>
 
