@@ -6,27 +6,29 @@
 <nav>
 	<ul>
 		<li>
-			<a aria-current={$page.url.pathname === undefined ? 'page' : undefined} href="{base}/">Home</a
+			<a aria-current={$page.url.pathname === '/' ? 'page' : undefined} href="{base}/">Home</a>
+		</li>
+		<li>
+			<a
+				aria-current={$page.url.pathname === '/history/' ? 'page' : undefined}
+				href="{base}/history/">History</a
 			>
 		</li>
 		<li>
-			<a aria-current={$page.url.pathname === 'history' ? 'page' : undefined} href="{base}/history/"
-				>History</a
+			<a
+				aria-current={$page.url.pathname === '/gallery/' ? 'page' : undefined}
+				href="{base}/gallery/">Gallery</a
 			>
 		</li>
 		<li>
-			<a aria-current={$page.url.pathname === 'gallery' ? 'page' : undefined} href="{base}/gallery/"
-				>Gallery</a
-			>
-		</li>
-		<li>
-			<a aria-current={$page.url.pathname === 'events' ? 'page' : undefined} href="{base}/events/"
+			<a aria-current={$page.url.pathname === '/events/' ? 'page' : undefined} href="{base}/events/"
 				>Events</a
 			>
 		</li>
 		<li>
-			<a aria-current={$page.url.pathname === 'contact' ? 'page' : undefined} href="{base}/contact/"
-				>Contact</a
+			<a
+				aria-current={$page.url.pathname === '/contact/' ? 'page' : undefined}
+				href="{base}/contact/">Contact</a
 			>
 		</li>
 	</ul>
