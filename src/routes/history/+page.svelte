@@ -112,7 +112,7 @@
 
 <div class="image">
 	<figure>
-		<img alt="20th Century floor plan" src="{base}/small/plan-17c.png" />
+		<img alt="20th Century floor plan" src="{base}/small/plan-20c.png" />
 		<figcaption>Sketch of the floor plan as it was in 1976.</figcaption>
 	</figure>
 </div>

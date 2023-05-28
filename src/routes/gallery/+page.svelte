@@ -12,6 +12,30 @@
 
 <div class="image">
 	<figure>
+		<img alt="The house at dusk" src="{base}/small/house-at-dusk.jpg" />
+		<figcaption>The house at dusk</figcaption>
+	</figure>
+</div>
+
+<div class="image">
+	<figure>
+		<img
+			alt="The main living room, originally known as the hall"
+			src="{base}/small/living-area.jpg"
+		/>
+		<figcaption>The main living room, originally known as the hall</figcaption>
+	</figure>
+</div>
+
+<div class="image">
+	<figure>
+		<img alt="The dining room, originally the kitchen" src="{base}/small/dining-room.jpg" />
+		<figcaption>The dining room, originally the kitchen</figcaption>
+	</figure>
+</div>
+
+<div class="image">
+	<figure>
 		<img alt="The &quot;Curate's Room&quot" src="{base}/small/curates-room.jpg" />
 		<figcaption>The "Curate's Room"</figcaption>
 	</figure>
