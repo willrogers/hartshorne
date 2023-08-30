@@ -25,6 +25,4 @@ You can preview the production build with `npm run preview`.
 
 ## Deploying
 
-After building, deploy to GitHub Pages with `npm run deploy`.
-
-See `package.json` for details.
+The site builds and deploys via Netlify on each push to main.
