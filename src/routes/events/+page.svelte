@@ -13,8 +13,10 @@
 	guides welcome you and show you round the whole of the house.
 </p>
 <p>
-	The Heritage Open Day in 2023 will be on Saturday 17th September. You will be able to book soon on
-	the <a href="https://www.heritageopendays.org.uk">Heritage Open Days</a> website.
+	The Heritage Open Day in 2023 will be on Saturday 17th September. You can book on the <a
+		href="https://www.heritageopendays.org.uk/visiting/event/hartshorne-upper-hall1"
+		>Heritage Open Days</a
+	> website.
 </p>
 <p>
 	We are also happy to show round private groups by prior arrangement. There is no charge but we ask
