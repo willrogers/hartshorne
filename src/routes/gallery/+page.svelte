@@ -44,7 +44,7 @@
 <div class="image">
 	<figure>
 		<img alt="A bedroom" src="{base}/small/bedroom1.jpg" />
-		<figcaption>One of the bedrooms.</figcaption>
+		<figcaption>One of the bedchambers</figcaption>
 	</figure>
 </div>
 
