@@ -25,4 +25,4 @@ You can preview the production build with `npm run preview`.
 
 ## Deploying
 
-The site builds and deploys via Netlify on each push to main.
+The site builds and deploys via Netlify on each push to main - see [the Netlify project](https://app.netlify.com/projects/glowing-cucurucho-f088c9/overview).
