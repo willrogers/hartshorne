@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	export let showModal = false;
 	export let imageSrc = '';
 	export let imageAlt = '';
@@ -8,13 +8,13 @@
 		showModal = false;
 	}
 
-	function handleKeydown(event) {
+	function handleKeydown(event: KeyboardEvent) {
 		if (event.key === 'Escape') {
 			closeModal();
 		}
 	}
 
-	function handleBackdropClick(event) {
+	function handleBackdropClick(event: MouseEvent) {
 		if (event.target === event.currentTarget) {
 			closeModal();
 		}
@@ -24,7 +24,14 @@
 <svelte:window on:keydown={handleKeydown} />
 
 {#if showModal}
-	<div class="modal-backdrop" on:click={handleBackdropClick} role="dialog" aria-modal="true">
+	<div
+		class="modal-backdrop"
+		on:click={handleBackdropClick}
+		on:keydown={handleKeydown}
+		role="dialog"
+		aria-modal="true"
+		tabindex="-1"
+	>
 		<div class="modal-content">
 			<button class="close-button" on:click={closeModal} aria-label="Close modal">
 				<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor">
