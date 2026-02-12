@@ -1,5 +1,14 @@
 <script>
 	import { base } from '$app/paths';
+	import GalleryWithModal from '../components/GalleryWithModal.svelte';
+
+	const images = [
+		{
+			src: `${base}/small/snow.jpg`,
+			alt: 'Upper Hall, Hartshorne',
+			caption: 'The house in winter 2020'
+		}
+	];
 </script>
 
 <svelte:head>
@@ -8,10 +17,7 @@
 
 <h1>Upper Hall, Hartshorne</h1>
 
-<figure>
-	<img alt="Upper Hall, Hartshorne" src="{base}/small/snow.jpg" />
-	<figcaption>The house in winter 2020</figcaption>
-</figure>
+<GalleryWithModal {images} />
 
 <p>
 	Hartshorne Upper Hall is a Grade II* timber-framed house built in the 1620s for John Benskin, a
@@ -30,7 +36,6 @@
 
 <style>
 	h1,
-	figure,
 	p {
 		text-align: center;
 		margin: 0 auto;
@@ -40,16 +45,6 @@
 		font-size: 2.8em;
 		font-weight: 700;
 		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 500px;
-		margin: 0 0 1em 0;
 	}
 
 	p {

@@ -1,5 +1,19 @@
 <script>
 	import { base } from '$app/paths';
+	import GalleryWithModal from '../../components/GalleryWithModal.svelte';
+
+	const images = [
+		{
+			src: `${base}/small/plan-17c.png`,
+			alt: '17th Century floor plan',
+			caption: 'Sketch of the floor plan as it was in the 17th Century.'
+		},
+		{
+			src: `${base}/small/plan-20c.png`,
+			alt: '20th Century floor plan',
+			caption: 'Sketch of the floor plan as it was in 1976.'
+		}
+	];
 </script>
 
 <svelte:head>
@@ -67,12 +81,7 @@
 	roof trusses which were abandoned half way through, due to an apparent change of heart.
 </p>
 
-<div class="image">
-	<figure>
-		<img alt="17th Century floor plan" src="{base}/small/plan-17c.png" />
-		<figcaption>Sketch of the floor plan as it was in the 17th Century.</figcaption>
-	</figure>
-</div>
+<GalleryWithModal images={[images[0]]} />
 
 <p>
 	Today, however, the original character of the house is best appreciated from the back, as the
@@ -110,12 +119,7 @@
 	Anthony Short and Partners of Ashbourne.
 </p>
 
-<div class="image">
-	<figure>
-		<img alt="20th Century floor plan" src="{base}/small/plan-20c.png" />
-		<figcaption>Sketch of the floor plan as it was in 1976.</figcaption>
-	</figure>
-</div>
+<GalleryWithModal images={[images[1]]} />
 
 <p>
 	<small>
@@ -124,16 +128,3 @@
 		September 2000, revised September 2011.
 	</small>
 </p>
-
-<style>
-	div.image {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	img {
-		width: 100%;
-		max-width: 500px;
-		margin: 0 0 1em 0;
-	}
-</style>

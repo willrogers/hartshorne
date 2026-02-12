@@ -1,5 +1,24 @@
 <script>
 	import { base } from '$app/paths';
+	import GalleryWithModal from '../../components/GalleryWithModal.svelte';
+
+	const images = [
+		{
+			src: `${base}/small/woman-with-fire.jpg`,
+			alt: 'Woman tending a fire',
+			caption: 'Woman tending a fire'
+		},
+		{
+			src: `${base}/small/two-women.jpg`,
+			alt: 'Women spinning',
+			caption: 'Women spinning'
+		},
+		{
+			src: `${base}/small/man-with-hat.jpg`,
+			alt: 'Man wearing a smock and hat',
+			caption: 'Man wearing a smock and hat'
+		}
+	];
 </script>
 
 <svelte:head>
@@ -25,21 +44,4 @@
 	>.
 </p>
 
-<div id="images">
-	<img alt="Woman tending a fire" src="{base}/small/woman-with-fire.jpg" />
-	<img alt="Women spinning" src="{base}/small/two-women.jpg" />
-	<img alt="Man wearing a smock and hat" src="{base}/small/man-with-hat.jpg" />
-</div>
-
-<style>
-	div#images {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-	img {
-		width: 100%;
-		max-width: 500px;
-		margin: 0 0 1em 0;
-	}
-</style>
+<GalleryWithModal {images} />
