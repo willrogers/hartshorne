@@ -1,20 +1,20 @@
 <script>
-	import { base } from '$app/paths';
+	import { resolve, asset } from '$app/paths';
 	import GalleryWithModal from '../../components/GalleryWithModal.svelte';
 
 	const images = [
 		{
-			src: `${base}/small/woman-with-fire.jpg`,
+			src: asset('/small/woman-with-fire.jpg'),
 			alt: 'Woman tending a fire',
 			caption: 'Woman tending a fire'
 		},
 		{
-			src: `${base}/small/two-women.jpg`,
+			src: asset('/small/two-women.jpg'),
 			alt: 'Women spinning',
 			caption: 'Women spinning'
 		},
 		{
-			src: `${base}/small/man-with-hat.jpg`,
+			src: asset('/small/man-with-hat.jpg'),
 			alt: 'Man wearing a smock and hat',
 			caption: 'Man wearing a smock and hat'
 		}
@@ -39,7 +39,7 @@
 </p>
 <p>
 	We are also happy to show round private groups by prior arrangement. Please <a
-		href="{base}/contact">contact Catherine Rogers</a
+		href={resolve("/contact")}>contact Catherine Rogers</a
 	>.
 </p>
 

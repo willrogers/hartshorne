@@ -1,15 +1,15 @@
 <script>
-	import { base } from '$app/paths';
+	import { asset } from '$app/paths';
 	import GalleryWithModal from '../../components/GalleryWithModal.svelte';
 
 	const images = [
 		{
-			src: `${base}/small/plan-17c.png`,
+			src: asset('/small/plan-17c.png'),
 			alt: '17th Century floor plan',
 			caption: 'Sketch of the floor plan as it was in the 17th Century.'
 		},
 		{
-			src: `${base}/small/plan-20c.png`,
+			src: asset('/small/plan-20c.png'),
 			alt: '20th Century floor plan',
 			caption: 'Sketch of the floor plan as it was in 1976.'
 		}

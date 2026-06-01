@@ -1,34 +1,34 @@
 <script>
-	import { page } from '$app/stores';
-	import { base } from '$app/paths';
+	import { page } from '$app/state';
+	import { resolve } from '$app/paths';
 </script>
 
 <nav>
 	<ul>
 		<li>
-			<a aria-current={$page.url.pathname === '/' ? 'page' : undefined} href="{base}/">Home</a>
+			<a aria-current={page.url.pathname === '/' ? 'page' : undefined} href={resolve('/')}>Home</a>
 		</li>
 		<li>
 			<a
-				aria-current={$page.url.pathname === '/history/' ? 'page' : undefined}
-				href="{base}/history/">History</a
+				aria-current={page.url.pathname === '/history/' ? 'page' : undefined}
+				href={resolve('/history/')}>History</a
 			>
 		</li>
 		<li>
 			<a
-				aria-current={$page.url.pathname === '/gallery/' ? 'page' : undefined}
-				href="{base}/gallery/">Gallery</a
+				aria-current={page.url.pathname === '/gallery/' ? 'page' : undefined}
+				href={resolve('/gallery/')}>Gallery</a
 			>
 		</li>
 		<li>
-			<a aria-current={$page.url.pathname === '/events/' ? 'page' : undefined} href="{base}/events/"
+			<a aria-current={page.url.pathname === '/events/' ? 'page' : undefined} href={resolve('/events/')}
 				>Events</a
 			>
 		</li>
 		<li>
 			<a
-				aria-current={$page.url.pathname === '/contact/' ? 'page' : undefined}
-				href="{base}/contact/">Contact</a
+				aria-current={page.url.pathname === '/contact/' ? 'page' : undefined}
+				href={resolve('/contact/')}>Contact</a
 			>
 		</li>
 	</ul>

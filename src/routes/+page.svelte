@@ -1,10 +1,10 @@
 <script>
-	import { base } from '$app/paths';
+	import { asset } from '$app/paths';
 	import GalleryWithModal from '../components/GalleryWithModal.svelte';
 
 	const images = [
 		{
-			src: `${base}/small/snow.jpg`,
+			src: asset('/small/snow.jpg'),
 			alt: 'Upper Hall, Hartshorne',
 			caption: 'The house in winter 2020'
 		}

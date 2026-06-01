@@ -20,7 +20,7 @@
 	</p>
 	<p>
 		<label for="yourmessage"> Message: </label> <br />
-		<textarea name="message" id="yourmessage" />
+		<textarea name="message" id="yourmessage"></textarea>
 	</p>
 	<p>
 		<button type="submit">Send</button>
