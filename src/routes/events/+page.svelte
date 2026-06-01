@@ -32,15 +32,14 @@
 	guides welcome you and show you round the whole of the house.
 </p>
 <p>
-	The Heritage Open Day in 2025 will be on Saturday 20th September. You will be able to book on the <a
-		href="https://www.heritageopendays.org.uk/visiting/event/hartshorne-upper-hall1"
+	The Heritage Open Day in 2026 will be on Saturday 12th September. You will be able to book on the <a
+		href="https://www.heritageopendays.org.uk/submission-event/hartshorne-upper-hall.html"
 		>Heritage Open Days</a
 	> website.
 </p>
 <p>
-	We are also happy to show round private groups by prior arrangement. There is no charge but we ask
-	for a donation to a Trussell Trust food bank. Please <a href="{base}/contact"
-		>contact Catherine Rogers</a
+	We are also happy to show round private groups by prior arrangement. Please <a
+		href="{base}/contact">contact Catherine Rogers</a
 	>.
 </p>
 
